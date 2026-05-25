@@ -6,7 +6,8 @@ import { FaWhatsapp } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import slide1 from "./assets/images/layout/slide1.png";
 import slide2 from "./assets/images/layout/slide2.png";
-import slide3 from "./assets/images/layout/slide3.png";
+import slide3 from "./assets/images/layout/slide3.jpg";
+import slide4 from "./assets/images/layout/slide4.jpg";
 import SwiperSlider from "./components/ui/slider/SwiperSlider";
 import { HiCheck } from "react-icons/hi";
 import { FaLightbulb } from "react-icons/fa";
@@ -60,7 +61,7 @@ function App() {
     },
     {
       id: 4,
-      image: slide1,
+      image: slide4,
       title: "Luxury Resort",
       buttonText: "Explore",
     },
@@ -140,7 +141,7 @@ function App() {
                   <div className="flex flex-col items-end gap-3 items-center text-[16px]">
                     <div className="flex gap-1">
                       <a
-                        href="https://farnoosh-r.github.io/react-demo1"
+                        href="https://demo1.farnooshstudio.ir"
                         target="_blank"
                         className="hover:text-[var(--brand-primary)]"
                       >
@@ -150,7 +151,7 @@ function App() {
                     </div>
                     <div className="flex gap-1">
                       <a
-                        href="https://demo1.farnooshstudio.ir"
+                        href="https://demo2.farnooshstudio.ir"
                         target="_blank"
                         className="hover:text-[var(--brand-primary)]"
                       >
@@ -160,7 +161,7 @@ function App() {
                     </div>
                     <div className="flex gap-1">
                       <a
-                        href="#"
+                        href="https://demo3.farnooshstudio.ir/"
                         target="_blank"
                         className="hover:text-[var(--brand-primary)]"
                       >
