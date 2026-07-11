@@ -7,7 +7,9 @@ import { FaLinkedin } from "react-icons/fa";
 import slide1 from "./assets/images/layout/slide1.png";
 import slide2 from "./assets/images/layout/slide2.png";
 import slide3 from "./assets/images/layout/slide3.jpg";
-import slide4 from "./assets/images/layout/slide4.jpg";
+import slide4 from "./assets/images/layout/slide4.png";
+import slide5 from "./assets/images/layout/slide5.png";
+import slide6 from "./assets/images/layout/slide6.jpg";
 import SwiperSlider from "./components/ui/slider/SwiperSlider";
 import { HiCheck } from "react-icons/hi";
 import { FaLightbulb } from "react-icons/fa";
@@ -65,6 +67,18 @@ function App() {
       title: "Luxury Resort",
       buttonText: "Explore",
     },
+    {
+      id: 5,
+      image: slide5,
+      title: "Luxury Resort",
+      buttonText: "Explore",
+    },
+    {
+      id: 6,
+      image: slide6,
+      title: "Luxury Resort",
+      buttonText: "Explore",
+    },
   ];
 
   return (
@@ -86,7 +100,9 @@ function App() {
             >
               DIGITAL DREAMS
             </h2>
-            <h1 className="text-white text-left drop-shadow-2xl -ml-9 hidden sm:block">TAL</h1>
+            <h1 className="text-white text-left drop-shadow-2xl -ml-9 hidden sm:block">
+              TAL
+            </h1>
             <SwiperSlider items={slides} />
           </div>
 
@@ -166,6 +182,16 @@ function App() {
                         className="hover:text-[var(--brand-primary)]"
                       >
                         demo3.farnooshstudio.ir
+                      </a>
+                      <HiCheck color="var(--brand-primary)" size={18} />
+                    </div>
+                    <div className="flex gap-1">
+                      <a
+                        href="http://amiralighorbani.ir/"
+                        target="_blank"
+                        className="hover:text-[var(--brand-primary)]"
+                      >
+                        amiralighorbani.ir
                       </a>
                       <HiCheck color="var(--brand-primary)" size={18} />
                     </div>
