@@ -198,9 +198,12 @@ function App() {
                   </div>
                 </div>
                 <div className="flex flex-col gap-7 items-end">
-                  <button className="w-fit text-lg bg-[var(--brand-primary)] hover:bg-[#799c02] px-5 py-3 rounded-2xl cursor-pointer">
-                    تماس بگیرید
-                  </button>
+                  <a href="tel:09195132797">
+                    <button className="w-fit text-lg bg-[var(--brand-primary)] hover:bg-[#799c02] px-5 py-3 rounded-2xl cursor-pointer">
+                      تماس بگیرید
+                    </button>
+                  </a>
+
                   <div className="flex justify-end gap-0 sm:gap-4">
                     <a
                       className="scroll-anim cursor-pointer p-2 hover:border hover:rounded-full transition-all duration-300 hover:text-white-500 hover:scale-125 hover:drop-shadow-[0_0_10px_rgba(197,257,0,1)]"
@@ -209,18 +212,27 @@ function App() {
                       <FaInstagram color="var(--text-primary)" size={20} />
                     </a>
                     <a
+                      href="https://t.me/FarnooshRamezani"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="scroll-anim cursor-pointer p-2 hover:border hover:rounded-full transition-all duration-300 hover:text-white-500 hover:scale-125 hover:drop-shadow-[0_0_10px_rgba(197,257,0,1)]"
                       style={{ "--from": "scale(0.9)" }}
                     >
                       <FaTelegramPlane color="var(--text-primary)" size={20} />
                     </a>
                     <a
+                      href="https://wa.me/989195132797"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="scroll-anim cursor-pointer p-2 hover:border hover:rounded-full transition-all duration-300 hover:text-white-500 hover:scale-125 hover:drop-shadow-[0_0_10px_rgba(197,257,0,1)]"
                       style={{ "--from": "scale(0.9)" }}
                     >
                       <FaWhatsapp color="var(--text-primary)" size={20} />
                     </a>
                     <a
+                      href="https://www.linkedin.com/in/farnoosh-ramezani-5b9a35201/"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="scroll-anim cursor-pointer p-2 hover:border hover:rounded-full transition-all duration-300 hover:text-white-500 hover:scale-125 hover:drop-shadow-[0_0_10px_rgba(197,257,0,1)]"
                       style={{ "--from": "scale(0.9)" }}
                     >
